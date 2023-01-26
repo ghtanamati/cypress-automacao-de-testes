@@ -49,8 +49,11 @@ describe('Login e registro de usuários no Alura Pic', () => {
         })
     })
 
-    it.only('fazer registro de um cliente', () => {
-        cy.new_register('teste_teste@mail.com', 'Teste Completo', 'user_test', 'pass1234')
-    })
+    const usuarios = require('../../fixtures/usuarios.json');
 
+    usuarios.forEach(usuario => {
+        it.only('fazendo registro do ' + usuario.fullName, () => {
+            cy.new_register('teste_teste@mail.com', 'Teste Completo', 'user_test', 'pass1234')
+        })
+    })
 })

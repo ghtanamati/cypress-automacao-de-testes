@@ -1,0 +1,26 @@
+[
+    {
+        "email": "gustavo@alura.com.br",
+        "fullName": "Gustavo Alura",
+        "userName": "gustavoalura",
+        "password": "hideki"
+    },
+    {
+        "email": "gabriel@alura.com.br",
+        "fullName": "Gabriel Alura",
+        "userName": "gabrielalura",
+        "password": "seiji"
+    },
+    {
+        "email": "kauan@alura.com.br",
+        "fullName": "Kauan Alura",
+        "userName": "kauanalura",
+        "password": "muriel"
+    },
+    {
+        "email": "felipe@alura.com.br",
+        "fullName": "Felipe Alura",
+        "userName": "felipealura",
+        "password": "pagnan"
+    }
+]
