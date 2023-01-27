@@ -2,25 +2,25 @@
     {
         "email": "gustavo@alura.com.br",
         "fullName": "Gustavo Alura",
-        "userName": "gustavoalura",
-        "password": "hideki"
+        "userName": "gustavohalura",
+        "password": "hideki123"
     },
     {
         "email": "gabriel@alura.com.br",
         "fullName": "Gabriel Alura",
-        "userName": "gabrielalura",
-        "password": "seiji"
+        "userName": "gabrielsalura",
+        "password": "seiji123"
     },
     {
         "email": "kauan@alura.com.br",
         "fullName": "Kauan Alura",
-        "userName": "kauanalura",
-        "password": "muriel"
+        "userName": "kauanmalura",
+        "password": "muriel123"
     },
     {
         "email": "felipe@alura.com.br",
         "fullName": "Felipe Alura",
-        "userName": "felipealura",
-        "password": "pagnan"
+        "userName": "felipepalura",
+        "password": "pagnan123"
     }
 ]
