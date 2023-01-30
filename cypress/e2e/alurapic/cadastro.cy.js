@@ -1,7 +1,7 @@
 describe('Cadastro de usuários no Alura Pic', () => {
 
     beforeEach(() => {
-        cy.visit('https://alura-fotos.herokuapp.com')
+        cy.visit('/');
     })
 
     it('Verifica Mensagem de email Inválido', () => {
@@ -21,7 +21,7 @@ describe('Cadastro de usuários no Alura Pic', () => {
         cy.contains('ap-vmessage', 'Password is required!').should('be.visible');
     })
 
-    it('Verifica Mensagem de Senha Curta', () => {
+    it('Verifica Mensagem de Senha com Menos de 8 Caracteres', () => {
         cy.contains('a', 'Register now').click();
         cy.contains('button', 'Register').click();
         cy.get('input[formcontrolname="password"]').type('123');
