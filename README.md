@@ -1,1 +1,0 @@
-# cypress-automacao-de-testes

@@ -4,11 +4,11 @@
   "description": "Primeiro Projeto com Cypress",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress open"
+    "test": "npx  cypress open"
   },
   "author": "Gustavo Tanamati",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^12.3.0" 
+    "cypress": "^12.3.0"
   }
 }
